@@ -1,0 +1,8 @@
+{
+  "locale": {
+    "en": "Tiếng Anh",
+    "vi": "Tiếng Việt"
+  },
+  "system_exception": "Lỗi hệ thống. Vui lòng liên hệ với bộ phận hỗ trợ khách hàng",
+  "system_error": "Đã có lỗi xảy ra trong quá trình gửi yêu cầu của bạn đến hệ thống.<br>Bạn vui lòng thử lại nhé!"
+}

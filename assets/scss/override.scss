@@ -1,0 +1,37 @@
+@mixin common_icon_with_color(
+  $name,
+  $width: 18px,
+  $height: 20px,
+  $color: $base-black-21
+) {
+  content: '';
+  display: inline-block;
+  width: $width;
+  height: $height;
+  mask: url('~@/assets/svg/#{$name}.svg') no-repeat center;
+  -webkit-mask: url('~@/assets/svg/#{$name}.svg') no-repeat center;
+  background-color: $color;
+  vertical-align: middle;
+}
+
+@mixin common_icon_not_color($name, $width: 18px, $height: 20px) {
+  content: '';
+  display: inline-block;
+  width: $width;
+  height: $height;
+  mask: url('~@/assets/svg/#{$name}.svg') no-repeat center;
+  -webkit-mask: url('~@/assets/svg/#{$name}.svg') no-repeat center;
+  background: transparent url('~@/assets/svg/#{$name}.svg') no-repeat
+    center/100% 100%;
+  vertical-align: middle;
+}
+
+// .icon-en-before::before {
+// 	@include common_icon_not_color("en", 18px, 14px);
+// 	margin-right: 3px;
+// 	margin-top: -3px;
+// }
+
+// .icon-fb-before::before {
+// 	@include common_icon_with_color("fb", 18px, 18px, #4869a0);
+// }
