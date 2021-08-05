@@ -19,6 +19,6 @@ $ yarn generate
 
 # Run with pm2
 
-pm2 start npm --name "crm-landingpage" -- run start --watch
+pm2 start npm --name "landingpage" -- run start --watch
 
 For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
